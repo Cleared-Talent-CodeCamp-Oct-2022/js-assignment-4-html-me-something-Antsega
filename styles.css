@@ -1,1 +1,71 @@
-/* Write your CSS here! */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(to right, purple, black, purple);
+    margin: 8px;
+    display: block;
+}
+
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#mainHeading {
+    color: red;
+}
+
+.funParagraph {
+    color: green;
+    font-weight: 700;
+}
+
+#testP {
+    color: green;
+}
+
+h2,
+p {
+    color: white;
+    font-weight: 700;
+}
+
+h3 {
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#gif {
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+article {
+    margin: 20px 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
