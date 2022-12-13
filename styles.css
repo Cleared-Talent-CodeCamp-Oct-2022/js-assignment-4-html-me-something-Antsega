@@ -20,10 +20,20 @@ header {
     font-weight: 700;
 }
 
+#testP {
+    color: green;
+}
+
 h2,
 p {
     color: white;
     font-weight: 700;
+}
+
+h3 {
+    color: white;
+    font-weight: 300;
+    font-style: italic;
 }
 
 @keyframes gradient {
